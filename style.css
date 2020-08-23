@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.menu-bar{
+	text-align: center;
+	height:80px;
+	background: #A4A4A4;
+	line-height: 70px;
+
+}
+.menu-bar ul li{
+	display: inline-block;
+}
+.menu-bar ul li a{
+	font-size: 16px;
+	color: black;
+	margin: 0px 10px;
+	transition:0.5s;
+}
+
+.menu-bar ul li a:hover{
+	color: #D8D8D8;
+	transition:0.5s;
+
+}
+
+.banner{
+	background-image: url(../img/yogurt.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+
+}
+.social-media{
+	height: 80px;
+	background-color:#D8D8D8;
+}
+.social-media ul li a{
+	font-size: 22px;
+	height: 60px;
+	width: 60px;
+	}
+.social-media ul li a i{
+	height: 40px;
+	width: 40px;
+	background-color: #2E2E2E;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 38px;
+	color: white;
+}
+.social-media ul li a i:hover{
+	background-color: #585858;
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
